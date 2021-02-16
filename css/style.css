@@ -12,6 +12,17 @@ a {
     color: inherit;
 }
 
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
 .d-flex {
     display: flex;
 }
@@ -20,10 +31,28 @@ a {
     align-items: center;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
 .container {
     max-width: 69.625rem;
     padding: 0 0.938rem ;
     margin: auto;
+}
+
+.btn {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    line-height: 1.333;
+    padding: 1rem 1.875rem;
+}
+
+.btn-default {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0.25rem 1.25rem 0 #0F064C;
+    color: #0F064C;
+    
 }
 
 .header {
@@ -54,4 +83,44 @@ a {
     height: 100vh;
     background: linear-gradient(89.85deg, #23196F 0.13%, #180D5B 99.88%);
     padding-top: 6.625rem;
+}
+
+.inner-call-to-action {
+    max-width: 34.063rem;
+}
+
+.call-to-action-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 1.29;
+    margin-top: 3.438rem;
+}
+
+.call-to-action-desq {
+    font-size: 1.125rem;
+    line-height: 1.33;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 1.25rem;
+    max-width: 23.938rem;
+    margin-bottom: 3.438rem;
+}
+
+.call-to-action-desq > span {
+    color: #36A7B9;
+    font-weight: 700;
+}
+
+.test-your-email {
+    display: inline-block;
+}
+
+.email-not-requared {
+    margin-top: 0.875rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.875rem;
+}
+
+.email-not-requared span {
+    margin-left: 0.875rem;
 }
